@@ -4,7 +4,7 @@ const Cast = ({ cast }) => {
       {cast.map(({ person, character, voice }) => (
         <div key={person.id}>
           <div>
-            <img src="{person.image ? person.image.medium : '/not-found-image.png'}" />
+            <img src={person.image ? person.image.medium : '/not-found-image.png'} />
           </div>
 
           <div>

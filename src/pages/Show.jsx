@@ -8,8 +8,7 @@ import Cast from '../components/shows/Cast';
 
 const Show = () => {
   const { showId } = useParams();
-  const { data: showData, error: showError } = useQuery;
-  useQuery({
+  const { data: showData, error: showError } = useQuery({
     queryKey: ['show', showId],
     queryFn: () => getShowById(showId),
     refetchOnWindowFocus: false,
