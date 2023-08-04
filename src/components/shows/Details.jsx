@@ -7,7 +7,7 @@ const Details = props => {
     <DetailsWrapper>
       <p>Status: {status}</p>
       <p>
-        Premiered {premiered} {!!network & `on ${network.name}`}
+        Premiered {premiered} {!!network && `on ${network.name}`}
       </p>
     </DetailsWrapper>
   );
