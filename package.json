@@ -2,7 +2,7 @@
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uditanshu.github.io/box-office-app",
+  "homepage": "https://udit-06.github.io/box-office-app/",
   "dependencies": {
     "@tanstack/react-query": "^4.32.0",
     "gh-pages": "^5.0.0",
