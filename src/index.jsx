@@ -14,6 +14,9 @@ root.render(
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://cra.link/PWA
+/* The code block `if (process.env.NODE_ENV === 'production')` is checking if the current environment
+is set to 'production'. If it is, then it calls the `register()` function from the
+`serviceWorkerRegistration` module. */
 if (process.env.NODE_ENV === 'production'){
     serviceWorkerRegistration.register();
 }
