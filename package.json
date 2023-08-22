@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://udit-06.github.io/box-office-app/",
   "dependencies": {
-    "@tanstack/react-query": "^4.32.0",
+    "@tanstack/react-query": "^4.32.1",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
